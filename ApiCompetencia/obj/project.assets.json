@@ -2061,19 +2061,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Clever\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj",
+      "projectUniqueName": "D:\\Actualizacion1\\CompeActualizacion1\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
       "projectName": "ApiCompetencia",
-      "projectPath": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj",
-      "packagesPath": "C:\\Users\\Clever\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\obj\\",
+      "projectPath": "D:\\Actualizacion1\\CompeActualizacion1\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "D:\\Actualizacion1\\CompeActualizacion1\\Actualizacion1ASP\\ApiCompetencia\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Clever\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -3,26 +3,24 @@ using ApiCompetencia.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-/*namespace ApiCompetencia.Controllers
+namespace ApiCompetencia.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GestoresController : ControllerBase
+    public class CategoriaController : ControllerBase
     {
         private readonly AppDbContext context;
-        public GestoresController(AppDbContext context)
+        public CategoriaController(AppDbContext context)
         {
             this.context = context;
         }
-        // GET: api/<GestoresController>
+        // GET: api/<CategoriaController>
         [HttpGet]
         public ActionResult Get()
         {
             try
             {
-                return Ok(context.gestores_bd.ToList());
+                return Ok(context.categoria.ToList());
             }
             catch (Exception ex)
             {
@@ -30,14 +28,14 @@ using Microsoft.EntityFrameworkCore;
             }
         }
 
-        // GET api/<GestoresController>/5
-        [HttpGet("{id}", Name = "GetGestor")]
+        // GET api/<CategoriaController>/5
+        [HttpGet("{id}", Name = "GetCategoria")]
         public ActionResult Get(int id)
         {
             try
             {
-                var gestor = context.gestores_bd.FirstOrDefault(g => g.id == id);
-                return Ok(gestor);
+                var categ = context.categoria.FirstOrDefault(g => g.id == id);
+                return Ok(categ);
             }
             catch (Exception ex)
             {
@@ -45,15 +43,15 @@ using Microsoft.EntityFrameworkCore;
             }
         }
 
-        // POST api/<GestoresController>
+        // POST api/<CategoriaController>
         [HttpPost]
-        public ActionResult Post([FromBody] Gestores_Bd gestor)
+        public ActionResult Post([FromBody] Categoria_BD categ)
         {
             try
             {
-                context.gestores_bd.Add(gestor);
+                context.categoria.Add(categ);
                 context.SaveChanges();
-                return CreatedAtRoute("GetGestor", new { id = gestor.id }, gestor);
+                return CreatedAtRoute("GetCategoria", new { id = categ.id }, categ);
             }
             catch (Exception ex)
             {
@@ -61,17 +59,17 @@ using Microsoft.EntityFrameworkCore;
             }
         }
 
-        // PUT api/<GestoresController>/5
+        // PUT api/<CategoriaController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Gestores_Bd gestor)
+        public ActionResult Put(int id, [FromBody] Categoria_BD categ)
         {
             try
             {
-                if (gestor.id == id)
+                if (categ.id == id)
                 {
-                    context.Entry(gestor).State = EntityState.Modified;
+                    context.Entry(categ).State = EntityState.Modified;
                     context.SaveChanges();
-                    return CreatedAtRoute("GetGestor", new { id = gestor.id }, gestor);
+                    return CreatedAtRoute("GetCategoria", new { id = categ.id }, categ);
                 }
                 else
                 {
@@ -84,16 +82,16 @@ using Microsoft.EntityFrameworkCore;
             }
         }
 
-        // DELETE api/<GestoresController>/5
+        // DELETE api/<CategoriaController>/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
             try
             {
-                var gestor = context.gestores_bd.FirstOrDefault(g => g.id == id);
-                if (gestor != null)
+                var categ = context.categoria.FirstOrDefault(g => g.id == id);
+                if (categ != null)
                 {
-                    context.gestores_bd.Remove(gestor);
+                    context.categoria.Remove(categ);
                     context.SaveChanges();
                     return Ok(id);
                 }
@@ -109,4 +107,3 @@ using Microsoft.EntityFrameworkCore;
         }
     }
 }
-*/
