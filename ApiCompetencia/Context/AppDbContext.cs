@@ -10,5 +10,6 @@ namespace ApiCompetencia.Context
                
         }
         public DbSet<Gestores_Bd> gestores_bd { get; set; }
+        public DbSet<Productos_Bd> producto { get; set; }
     }
 }
