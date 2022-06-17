@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj": {}
+    "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj": {
+    "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj",
+        "projectUniqueName": "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
         "projectName": "ApiCompetencia",
-        "projectPath": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj",
+        "projectPath": "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
         "packagesPath": "C:\\Users\\Clever\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\obj\\",
+        "outputPath": "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Actualizacion1ASP\\ApiCompetencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Clever\\AppData\\Roaming\\NuGet\\NuGet.Config",

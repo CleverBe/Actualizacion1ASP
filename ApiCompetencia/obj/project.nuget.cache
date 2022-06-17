@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gnkKvTzl3IVRYNzBEO1j2fIFPwbMI1Lmf3ds5XY8HS/fVzdcTMi1M84ZZpiwpUfbWHJx4y9aYaYA6grCiYYwOw==",
+  "dgSpecHash": "mxeE00xeutTzfEe9PzsNXf3yOAoTRjAgdq1r95yoC/OLVbgqtYS3NVvIGXxF0s6zqTLpQLJc5dWxUV4aBHONzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clever\\Desktop\\ApiCompetencia\\ApiCompetencia\\ApiCompetencia.csproj",
+  "projectFilePath": "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Clever\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Clever\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
