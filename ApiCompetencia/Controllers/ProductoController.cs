@@ -22,7 +22,19 @@ namespace ApiCompetencia.Controllers
         {
             try
             {
-                return Ok(context.producto.ToList());
+                var productoCateg = context.producto.Join(context.categoria, prod => prod.categoria_id,
+                    cat => cat.id, (prod, cat) => new {
+                        id = prod.id,
+                        nombre = prod.nombre,
+                        costo = prod.costo,
+                        precio = prod.precio,
+                        caracteristicas = prod.caracteristicas,
+                        stock = prod.stock,
+                        marca = prod.marca,
+                        categoria_id = prod.categoria_id,
+                        nombrecat = cat.nombre,
+                    }).ToList();
+                return Ok(productoCateg);
             }
             catch (Exception ex)
             {
