@@ -13,5 +13,6 @@ namespace ApiCompetencia.Context
         public DbSet<Productos_Bd> producto { get; set; }
 	    public DbSet<Categoria_BD> categoria { get; set; }
         public DbSet<Usuarios> usuarios { get; set; }
+
     }
 }
