@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G1sYS6zHu5pQ7Eqt4KMGkZaEpT+XOz8QZh/XeTEelS7N5+XMmYm92OHDHwz/kujGbuf7ixrcZV0tDhUIdcEbIw==",
+  "dgSpecHash": "tD8n1G+XEs0VRNtZqmc8te51z3DUG4XLFn6xoYev4aa+sVcKCRfisNxn8NWqu0xMTaqRbuNx2ZYPsp6pcnOB9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clever\\Desktop\\crud react asp\\asp\\Nueva carpeta\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
+  "projectFilePath": "C:\\Users\\Clever\\Desktop\\crud react asp\\Actualizacion1ASP\\ApiCompetencia\\ApiCompetencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Clever\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Clever\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
